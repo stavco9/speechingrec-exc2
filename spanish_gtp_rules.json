@@ -1,0 +1,214 @@
+{
+    "graphemes": "a á b c d e é f g h i í j k l m n ñ o ó p q r s t u ú ü v w x y z",
+    "subsets": [
+        {
+            "name": "SV",
+            "graphemes": "a á e é o ó"
+        },
+        {
+            "name": "EI",
+            "graphemes": "e é i í"
+        }
+    ],
+    "rules": [
+        {
+            "center": "a",
+            "phonemes": "a"
+        },
+        {
+            "center": "á",
+            "phonemes": "a"
+        },
+        {
+            "center": "b",
+            "phonemes": "b"
+        },
+        {
+            "center": "ch",
+            "phonemes": "ʧ"
+        },
+        {
+            "center": "c",
+            "successor": "EI",
+            "phonemes": "θ"
+        },
+        {
+            "center": "c",
+            "phonemes": "k"
+        },
+        {
+            "center": "d",
+            "phonemes": "d"
+        },
+        {
+            "center": "e",
+            "phonemes": "e"
+        },
+        {
+            "center": "é",
+            "phonemes": "e"
+        },
+        {
+            "center": "f",
+            "phonemes": "f"
+        },
+        {
+            "center": "gu",
+            "successor": "EI",
+            "phonemes": "g"
+        },
+        {
+            "center": "g",
+            "successor": "EI",
+            "phonemes": "x"
+        },
+        {
+            "center": "g",
+            "phonemes": "g"
+        },        
+        {
+            "center": "hi",
+            "predecessor": "$",
+            "phonemes": "ʝ"
+        },
+        {
+            "center": "h"
+            "phonemes": ""
+        },
+        {
+            "center": "i",
+            "predecessor": "SV",
+            "phonemes": "j"
+        },
+        {
+            "center": "i",
+            "successor": "a á e é o ó u ú",
+            "phonemes": "j"
+        },
+        {
+            "center": "i",
+            "phonemes": "i"
+        },
+        {
+            "center": "í",
+            "phonemes": "i"
+        },
+        {
+            "center": "j",
+            "phonemes": "x"
+        },
+        {
+            "center": "k",
+            "phonemes": "k"
+        },
+        {
+            "center": "ll",
+            "phonemes": "ʝ"
+        },
+        {
+            "center": "l",
+            "phonemes": "l"
+        },
+        {
+            "center": "m",
+            "phonemes": "m"
+        },
+        {
+            "center": "n",
+            "phonemes": "n"
+        },
+        {
+            "center": "ñ",
+            "phonemes": "ɲ"
+        },
+        {
+            "center": "o",
+            "phonemes": "o"
+        },
+        {
+            "center": "ó",
+            "phonemes": "o"
+        },
+        {
+            "center": "p",
+            "phonemes": "p"
+        },
+        {
+            "center": "qu",
+            "successor": "EI",
+            "phonemes": "k"
+        },
+        {
+            "center": "q",
+            "phonemes": "k"
+        },
+        {
+            "center": "rr",
+            "phonemes": "r"
+        },
+        {
+            "center": "r",
+            "predecessor": "$",
+            "phonemes": "r"
+        },
+        {
+            "center": "r",
+            "phonemes": "ɾ"
+        },
+        {
+            "center": "s",
+            "phonemes": "s"
+        },
+        {
+            "center": "t",
+            "phonemes": "t"
+        },
+        {
+            "center": "u",
+            "predecessor": "SV",
+            "phonemes": "w"
+        },
+        {
+            "center": "u",
+            "successor": "a á e é i í o ó",
+            "phonemes": "w"
+        },
+        {
+            "center": "u",
+            "phonemes": "u"
+        },
+        {
+            "center": "ú",
+            "phonemes": "u"
+        },
+        {
+            "center": "ü",
+            "phonemes": "w"
+        },
+        {
+            "center": "v",
+            "phonemes": "b"
+        },
+        {
+            "center": "w",
+            "phonemes": "w"
+        },
+        {
+            "center": "x",
+            "phonemes": "ks"
+        },
+        {
+            "center": "y",
+            "successor": "$",
+            "phonemes": "j"
+        },
+        {
+            "center": "y",
+            "phonemes": "ʝ"
+        },
+        {
+            "center": "z",
+            "phonemes": "θ"
+        }
+    ]
+}
