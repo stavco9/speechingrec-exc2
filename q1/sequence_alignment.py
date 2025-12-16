@@ -201,8 +201,8 @@ def align_sequences(first_seq: Iterable,
     # As we traced the alignment backwards, we have to reverse the list of aligned pairs.
     aligned_pairs.reverse()
 
-    if isinstance(weights, LevenshteinWeights):
-        scores_mat = np.abs(scores_mat)
+    #if isinstance(weights, LevenshteinWeights):
+    #    scores_mat = np.abs(scores_mat)
 
     if debug or isinstance(weights, NestedUniformWeights):
         print(scores_mat)
@@ -228,8 +228,8 @@ print("Count of differences: ", len(get_difference(aligned_pairs)))
 print("="*50)
 print("Part2: Two sequence alignment")
 print("="*50)
-seq1 = "friends romans countrymen lend me your ears i come to bury caesar not to praise him"
-seq2 = "my friends romans country men land me your ears i come to bury caesar not to praise him"
+seq1 = "friends romans countrymen lend me your ears i come to bury caesar not to praise him".split()
+seq2 = "my friends romans country men land me your ears i come to bury caesar not to praise him".split()
 print("Comparing alignments of by levenshtein weights: ", seq1, "and", seq2)
 align_score, aligned_pairs = align_sequences(seq1, seq2, LevenshteinWeights())
 print("Alignment score: ", align_score)
